@@ -1,0 +1,35 @@
+.keyboard {
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  left: 111;
+}
+.keyboard > button {
+  height: 72px;
+  min-width: calc((100% - 48px) / 4);
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  border: none;
+  border-radius: 24px;
+}
+.keyboard > button > img {
+  margin: auto;
+  width: 40px;
+  filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(3deg) brightness(102%) contrast(101%);
+}
+.keyboard .main-buttons {
+  background-color: #2E2F38;
+}
+.keyboard .operation {
+  background-color: #4B5EFC;
+}
+.keyboard .instrument {
+  background-color: #4E505F;
+}
